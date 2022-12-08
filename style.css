@@ -183,7 +183,8 @@ ol {
   h3 {
     font-size: 1.75rem;
   }
-  .nav-logo {
+  .nav-logo,
+  .nav-logo span {
     font-size: 25px;
   }
 }
@@ -197,7 +198,8 @@ ol {
   h3 {
     font-size: 1.5rem;
   }
-  .nav-logo {
+  .nav-logo,
+  .nav-logo span {
     font-size: 20px;
   }
 }
