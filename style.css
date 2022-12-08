@@ -8,6 +8,7 @@
   padding: 0;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
+  font-size: 20px;
 }
 
 /* Header */
@@ -30,6 +31,7 @@
 }
 .nav-logo span {
   color: #713112;
+  font-size: 30px;
 }
 .nav-menu {
   display: flex;
@@ -95,7 +97,7 @@ h3 {
   font-size: 30px;
 }
 article {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 section {
   display: flex;
@@ -127,7 +129,7 @@ ol {
   display: none;
   opacity: 0.5;
 }
-@media (max-width: 865px) {
+@media (max-width: 1185px) {
   .hamburguer {
     display: block;
   }
@@ -153,6 +155,11 @@ ol {
     height: 100vh;
     text-align: center;
   }
+  .nav-menu li {
+    border-bottom: 1px solid #713112;
+    width: 75%;
+    padding-bottom: 20px;
+  }
   .nav-item {
     margin-bottom: 16px;
   }
@@ -164,6 +171,9 @@ ol {
   }
 }
 @media (max-width: 715px) {
+  * {
+    font-size: 16px;
+  }
   .content {
     width: 95%;
   }
