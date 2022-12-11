@@ -75,19 +75,26 @@
 .img {
   width: 100%;
 }
-.button {
-  padding: 10px;
+.button,
+button {
+  padding: 10px 20px;
   background: #713112;
   text-decoration: none;
   color: white;
-  border-radius: 8px;
+  border-radius: 15px;
   border: 1px solid #713112;
   transition: all 0.3s ease;
 }
-.button:hover {
+.button:hover,
+button:hover {
   background: none;
   color: black;
 }
+/*  Feedback */
+.feedback {
+  text-align: center;
+}
+/* Tags */
 h2 {
   color: #713112;
   text-decoration: underline #713112;
@@ -118,6 +125,11 @@ img {
 ul,
 ol {
   margin-left: 15px;
+}
+textarea {
+  resize: none;
+  padding: 10px;
+  margin: 20px auto;
 }
 /* Responsividade */
 .opac {
