@@ -6,9 +6,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style: none;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 /* Header */
@@ -30,7 +31,7 @@
   color: white;
 }
 .nav-logo span {
-  color: #713112;
+  color: #54311e;
   font-size: 30px;
 }
 .nav-menu {
@@ -38,15 +39,14 @@
   align-items: center;
   justify-content: center;
   gap: 60px;
-  list-style: none;
 }
 .nav-link {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   transition: 0.7s ease;
 }
 .nav-link:hover {
-  color: #713112;
+  color: #54311e;
 }
 .hamburguer {
   display: none;
@@ -65,7 +65,7 @@
 
 /* Content */
 .content {
-  width: 650px;
+  width: 550px;
   padding: 80px 10px;
   margin: 0 auto;
 }
@@ -78,11 +78,11 @@
 .button,
 button {
   padding: 10px 20px;
-  background: #713112;
+  background: #54311e;
   text-decoration: none;
   color: white;
   border-radius: 15px;
-  border: 1px solid #713112;
+  border: 1px solid #54311e;
   transition: all 0.3s ease;
 }
 .button:hover,
@@ -100,10 +100,11 @@ button:hover {
   display: flex;
   flex-direction: column;
 }
+
 /* Tags */
 h2 {
-  color: #713112;
-  text-decoration: underline #713112;
+  color: #54311e;
+  text-decoration: underline #54311e;
   font-size: 46.5px;
   text-align: center;
 }
@@ -119,7 +120,7 @@ section {
   margin: 50px 0px;
   align-items: center;
   justify-content: center;
-  border-bottom: 3px solid #713112;
+  border-bottom: 3px solid #54311e;
   padding-bottom: 30px;
 }
 p {
@@ -127,10 +128,6 @@ p {
 }
 img {
   width: 80%;
-}
-ul,
-ol {
-  margin-left: 15px;
 }
 textarea {
   resize: none;
@@ -148,7 +145,7 @@ textarea {
   display: none;
   opacity: 0.5;
 }
-@media (max-width: 1185px) {
+@media (max-width: 1140px) {
   .hamburguer {
     display: block;
   }
@@ -175,7 +172,7 @@ textarea {
     text-align: center;
   }
   .nav-menu li {
-    border-bottom: 1px solid #713112;
+    border-bottom: 1px solid #54311e;
     width: 75%;
     padding-bottom: 20px;
   }
@@ -189,7 +186,7 @@ textarea {
     display: block;
   }
 }
-@media (max-width: 715px) {
+@media (max-width: 560) {
   * {
     font-size: 16px;
   }
